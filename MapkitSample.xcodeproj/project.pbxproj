@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4289CDAB1EDF023A000AD58D /* PublicArt.json in Resources */ = {isa = PBXBuildFile; fileRef = 4289CDA91EDF023A000AD58D /* PublicArt.json */; };
+		4289CDAD1EDF04CC000AD58D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289CDAC1EDF04CC000AD58D /* JSON.swift */; };
+		4289CDAF1EDF0519000AD58D /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289CDAE1EDF0519000AD58D /* Artwork.swift */; };
+		4289CDB11EDF052F000AD58D /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4289CDB01EDF052F000AD58D /* VCMapView.swift */; };
 		42901EB51EDEFCEC00F239AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42901EB41EDEFCEC00F239AA /* AppDelegate.swift */; };
 		42901EB71EDEFCEC00F239AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42901EB61EDEFCEC00F239AA /* ViewController.swift */; };
 		42901EBA1EDEFCEC00F239AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42901EB81EDEFCEC00F239AA /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4289CDA91EDF023A000AD58D /* PublicArt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PublicArt.json; sourceTree = "<group>"; };
+		4289CDAC1EDF04CC000AD58D /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		4289CDAE1EDF0519000AD58D /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		4289CDB01EDF052F000AD58D /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
 		42901EB11EDEFCEC00F239AA /* MapkitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapkitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42901EB41EDEFCEC00F239AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42901EB61EDEFCEC00F239AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 			children = (
 				42901EB41EDEFCEC00F239AA /* AppDelegate.swift */,
 				42901EB61EDEFCEC00F239AA /* ViewController.swift */,
+				4289CDAC1EDF04CC000AD58D /* JSON.swift */,
+				4289CDAE1EDF0519000AD58D /* Artwork.swift */,
+				4289CDB01EDF052F000AD58D /* VCMapView.swift */,
+				4289CDA91EDF023A000AD58D /* PublicArt.json */,
 				42901EB81EDEFCEC00F239AA /* Main.storyboard */,
 				42901EBB1EDEFCEC00F239AA /* Assets.xcassets */,
 				42901EBD1EDEFCEC00F239AA /* LaunchScreen.storyboard */,
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					42901EB01EDEFCEC00F239AA = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2XYQ7UMVVP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4289CDAB1EDF023A000AD58D /* PublicArt.json in Resources */,
 				42901EBF1EDEFCEC00F239AA /* LaunchScreen.storyboard in Resources */,
 				42901EBC1EDEFCEC00F239AA /* Assets.xcassets in Resources */,
 				42901EBA1EDEFCEC00F239AA /* Main.storyboard in Resources */,
@@ -136,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4289CDAD1EDF04CC000AD58D /* JSON.swift in Sources */,
 				42901EB71EDEFCEC00F239AA /* ViewController.swift in Sources */,
+				4289CDB11EDF052F000AD58D /* VCMapView.swift in Sources */,
+				4289CDAF1EDF0519000AD58D /* Artwork.swift in Sources */,
 				42901EB51EDEFCEC00F239AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XYQ7UMVVP;
 				INFOPLIST_FILE = MapkitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikola.test.MapkitSample;
+				PRODUCT_BUNDLE_IDENTIFIER = sambo.nikola.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +290,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2XYQ7UMVVP;
 				INFOPLIST_FILE = MapkitSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikola.test.MapkitSample;
+				PRODUCT_BUNDLE_IDENTIFIER = sambo.nikola.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +318,7 @@
 				42901EC51EDEFCEC00F239AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

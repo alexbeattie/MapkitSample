@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  MapkitSample
 //
-//  Created by Nikola on 5/31/17.
-//  Copyright © 2017 Nikola. All rights reserved.
+//  Created by sambo on 5/31/17.
+//  Copyright © 2017 sambo. All rights reserved.
 //
 
 import UIKit
